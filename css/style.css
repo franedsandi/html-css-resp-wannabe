@@ -127,7 +127,14 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- /* mobile */
+ /* tablet */
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+}
+
+/* mobile */
 @media screen and (max-width: 480px){
     .row{
         flex-direction: column;
@@ -137,12 +144,6 @@ img {
     .steps .col ,
     .why-us .col-left ,
     .why-us .col-right {
-        width: 100%;
-    }
-}
-/* tablet */
-@media screen and (max-width: 768px){
-    .container{
         width: 100%;
     }
 }
